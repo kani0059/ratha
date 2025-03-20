@@ -1,0 +1,88 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and container styles */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #2a9d8f;
+}
+
+header .subheading {
+    font-size: 1.2em;
+    color: #264653;
+    margin-top: 10px;
+}
+
+/* Event details section */
+.details {
+    margin-bottom: 20px;
+}
+
+.details h2 {
+    font-size: 1.8em;
+    color: magenta;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* RSVP section */
+.rsvp {
+    text-align: center;
+}
+
+.rsvp h2 {
+    font-size: 1.8em;
+    color: #264653;
+    margin-bottom: 10px;
+}
+
+.rsvp p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* RSVP button */
+.rsvp-button {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #2a9d8f;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.rsvp-button:hover {
+    background-color: #264653;
+}
